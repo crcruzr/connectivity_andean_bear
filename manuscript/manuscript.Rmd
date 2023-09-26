@@ -110,7 +110,6 @@ library(hrbrthemes)
 library(tidyverse)
 
 dt <- read.csv(file = '../rawData/BM_all_data2.csv')
-
 year <- as.data.frame(table(dt$year))
   
 
@@ -126,7 +125,7 @@ tail(year,25) %>%
 tb <-  as.data.frame (table(dt$country))
 names(tb) <- c('Countries', 'Frecuency')
 knitr::kable(
-    tb, 
+    tb[order(tb$Frecuency, decreasing = T),], 
     caption = "\\label{tab1}Records by countriess"
 )
 
