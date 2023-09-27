@@ -3,7 +3,7 @@ ID,ID,Numeric,1-11344,The unique numer to the record. It this added when the rec
 occurrenceID,occurrenceID,Character,variable,An identifier for the Occurrence.
 species Original,speciesOriginal,Character,Tremarctus ornatus,"The taxon name, with authorship and date information if known."
 species,species,Character,Tremarctus ornatus,The full scientific name
-accepted Name Usage,acceptedNameUsage,Character,Tremarctus ornatus (Cuvier, 1825),"The full scientific name, with authorship and date information if known."
+accepted Name Usage,acceptedNameUsage,Character,Tremarctus ornatus (Cuvier 1825),"The full scientific name, with authorship and date information if known."
 source,source,Character,"Gbif, data_I2D, Carlos_C‡ceres_data, ConsvGenAndeanBear15May2020, Parques Nacionales Naturales, Carlos C‡ceres Data, Red de Monitoreo Participativo, WCS",The source where were obtained the record
 institution Code,institutionCode,Character,variable,The name (or acronym) in use by the institution having custody of the object(s) or information referred to in the record.
 collection Code,collectionCode,Character,variable,"The name, acronym, coden, or initialism identifying the collection or data set from which the record was derived."
