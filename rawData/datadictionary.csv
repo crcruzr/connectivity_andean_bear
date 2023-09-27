@@ -3,7 +3,7 @@ ID,ID,Numeric,1-11344,The unique numer to the record. It this added when the rec
 occurrenceID,occurrenceID,Character,variable,An identifier for the Occurrence.
 species Original,speciesOriginal,Character,Tremarctus ornatus,"The taxon name, with authorship and date information if known."
 species,species,Character,Tremarctus ornatus,The full scientific name
-accepted Name Usage,acceptedNameUsage,Character,Tremarctus ornatus,"The full scientific name, with authorship and date information if known."
+accepted Name Usage,acceptedNameUsage,Character,Tremarctus ornatus (Cuvier, 1825),"The full scientific name, with authorship and date information if known."
 source,source,Character,"Gbif, data_I2D, Carlos_C‡ceres_data, ConsvGenAndeanBear15May2020, Parques Nacionales Naturales, Carlos C‡ceres Data, Red de Monitoreo Participativo, WCS",The source where were obtained the record
 institution Code,institutionCode,Character,variable,The name (or acronym) in use by the institution having custody of the object(s) or information referred to in the record.
 collection Code,collectionCode,Character,variable,"The name, acronym, coden, or initialism identifying the collection or data set from which the record was derived."
@@ -22,8 +22,8 @@ verbatim Locality,verbatimLocality,Character,Variable,The original textual descr
 lat,lat,Numeric,variable,"The geographic latitude (in decimal degrees, using the spatial reference system given in geodeticDatum) of the geographic center of a Location. Positive values are north of the Equator, negative values are south of it. Legal values lie between -90 and 90, inclusive."
 lon,lon,Numeric,Variable,"The geographic longitude (in decimal degrees, using the spatial reference system given in geodeticDatum) of the geographic center of a Location. Positive values are east of the Greenwich Meridian, negative values are west of it. Legal values lie between -180 and 180, inclusive."
 verbatim Elevation,verbatimElevation,Character,Variable,"The original description of the elevation (altitude, usually above sea level) of the Location."
-visualization Privileges,visualizationPrivileges,Numeric,"0= Can saher in other projects, 1=can't shared, 2= cant shared and publicated in another repositories, ",Type of use to the records
-private Data,privateData,Numeric,"0= Can saher in other projects, 1=can't shared, 2= cant shared and publicated in another repositories, ",The restriction of the records
+visualization Privileges,visualizationPrivileges,Numeric,"0= Can share in other projects, 1=can't shared, 2= cant shared and publicated in another repositories, ",Type of use to the records
+private Data,privateData,Numeric,"0= Can share in other projects, 1=can't shared, 2= cant shared and publicated in another repositories, ",The restriction of the records
 resource Name,resourceName,Character,Variable,The name of the original resource where were obtainedthe record
 resource Folder,resourceFolder,Character,Variable,The name of the folder where were storaged the record
 resource Incorporation Date,resourceIncorporationDate,Character,Variable,The date when was registered the record
