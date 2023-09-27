@@ -10,10 +10,11 @@ The project is under development and is being executed by Cristian A. Cruz-Rodr�
 
 The dataset contains
 
-- rawData: The original Data used in the publication
-- Manuscript: Contains the R Markdown with the manuscript in the "manuscript.Rmd" file. Also, have the bibliography in "mybibifile.bib", and the Cumulative Layout Shift in "elsarticle.cls" file.
- Figures: It has the figures used in the manuscript
-- outData: It contains the data obtained after applying the analysis [it is developing]
+- 00-rawData: The original Data used in the publication
+- 01-scripts Contains the file "Script_connectivity_andean_bear.R" with the steps to create the resources for the manuscript
+- 02-outData: It contains the data obtained after applying the analysis [it is developing]
+- 03 Figures: It has the figures used in the manuscript 
+- 04-Manuscript: Contains the R Markdown with the manuscript in the "manuscript.Rmd" file. Also, have the bibliography in "mybibifile.bib", and the Cumulative Layout Shift in "elsarticle.cls" file.
 - renv: It has the local storage created to reproducibility the data. See instructions after.
 
 ## Instructions
@@ -33,3 +34,28 @@ Once _renv_ is installed, you can restore the project and the libraries used. To
 Open the "connectivity_andean_bear.Rproj" and after _"Script_connectivity_andean_bear.r"_ file and follow the instructions indicated there.
 
 NOTE: The script where designed using MacOS. Vetting for reproducibility with Microsoft Windows and Linux is in progress.
+
+## Repository Structure
+
+The following tree represents the files that are organized in this repository
+
+project_root/
+  ├── 00-rawData
+  │   ├── datadictionary.csv
+  │   └── BM_all_data2.csv
+  ├── 01-scripts
+  │   ├── Script_connectivity_andean_bear.R
+  ├── 02-outdata
+  │   ├── [it is in developing]
+  ├── 03-figs
+  │   ├── Figure1.png
+  │   └── Figure1.png
+  │   └── figure2.pdf
+  ├── 04-manuscript
+  │   ├── manuscript.Rmd
+  │   ├── mybibfile.bib
+  │   └── elsarticle.cls
+  ├── renv
+  ├── connectivity_andean_bear.Rproj
+  ├── renv.lock
+  └──README.md
