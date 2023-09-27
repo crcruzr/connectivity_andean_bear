@@ -39,23 +39,28 @@ NOTE: The script where designed using MacOS. Vetting for reproducibility with Mi
 
 The following tree represents the files that are organized in this repository
 
+```
 project_root/
-  ├── 00-rawData
-  │   ├── datadictionary.csv
-  │   └── BM_all_data2.csv
-  ├── 01-scripts
-  │   ├── Script_connectivity_andean_bear.R
-  ├── 02-outdata
-  │   ├── [it is in developing]
-  ├── 03-figs
-  │   ├── Figure1.png
-  │   └── Figure1.png
-  │   └── figure2.pdf
-  ├── 04-manuscript
-  │   ├── manuscript.Rmd
-  │   ├── mybibfile.bib
-  │   └── elsarticle.cls
-  ├── renv
-  ├── connectivity_andean_bear.Rproj
-  ├── renv.lock
-  └──README.md
+├── 00-rawData
+│   ├── BM_all_data2.csv
+│   └── datadictionary.csv
+├── 01-scripts
+│   └── Script_connectivity_andean_bear.R
+├── 02-outData
+├── 03-figures
+│   ├── Figure1.png
+│   ├── Figure1.tif
+│   └── figure2.pdf
+├── 04-manuscript
+│   ├── elsarticle.cls
+│   ├── manuscript.Rmd
+│   └── mybibfile.bib
+├── README.md
+├── connectivity_andean_bear.Rproj
+├── renv
+│   ├── activate.R
+│   ├── library
+│   ├── settings.json
+│   └── staging
+└── renv.lock
+```
